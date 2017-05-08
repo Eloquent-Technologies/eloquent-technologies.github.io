@@ -275,7 +275,6 @@ a:focus {
 
 /* Portfolio Wrap */
 #portfoliowrap {
-	padding-top: 60px;
 	margin-bottom: 60px;
 	display: block;
 	text-align: center
@@ -332,24 +331,11 @@ body > div.container.mtb > div > div.col-lg-6 > ul > li {
 
 /* Testimonials Wrap */
 #twrap {
-	background: url(../img/t-back.jpg) no-repeat center top;
 	margin-top: 0px;
 	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 450px;
+	min-height: 150px;
 	max-height: 450px;
 	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
   overflow: hidden;
 }
 
@@ -507,5 +493,17 @@ csmall2 {
 video {
   width: 100% !important;
   height: auto !important;
-  z-index:-1;
+  z-index:-10;
+}
+
+#twrap .row{
+	min-height:150px;
+	height:450px;
+}
+
+.stats{
+	margin-top:165px;
+	color: white;
+	font-size:2em;
+	font-weight:800;
 }
