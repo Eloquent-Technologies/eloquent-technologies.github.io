@@ -98,8 +98,8 @@ a:focus {
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
 .navbar {
-	min-height: 70px;
-	padding-top: 10px;
+	min-height: 80px;
+	padding-top: 5px;
 	margin-bottom: 0px;
 }
 
@@ -223,9 +223,14 @@ a:focus {
 	padding-bottom: 0px;
 	text-align: center;
 }
+#headerwrap-2 {
+	min-height: 550px;
+	padding-top: 100px;
+	padding-bottom: 0px;
+	text-align: center;
+}
 
 #headerwrap h3, h5 {
-	color: white;
 	font-weight: 400;
 }
 
@@ -237,17 +242,35 @@ a:focus {
 #headerwrap .img-responsive {
 	margin: 0 auto;
 }
+#headerwrap-2 .img-responsive {
+	margin: 20px auto 0 auto;
+}
+
 
 /* Services Wrap */
 #service {
+	background-color: #00b3fe;
 	margin-top: 100px;
 	margin-bottom: 80px;
 }
 
 #service i {
-	color: #00b3fe;
+	margin-top: 20px;
+	color: #d1f1ff;
 	font-size: 60px;
 	padding: 15px;
+}
+#service p, #service h4 {
+	color: white;
+}
+
+#service > div > div > div:nth-child(3) > p:nth-child(4) > a {
+	margin-bottom: 20px;
+}
+
+#service blockquote {
+	color:white;
+	font-size:1.2em;
 }
 
 /* Portfolio Wrap */
