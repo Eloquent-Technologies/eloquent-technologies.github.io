@@ -45,6 +45,18 @@ p {
 	color: #384452; 
 	margin-top: 10px; 
 }
+#footerwrap > div > div > div:nth-child(2) > p > i.fa.fa-envelope { 
+	font-weight: 400;
+	font-size: 14px; 
+	line-height: 24px;
+	margin-top: 10px; 
+}
+
+#footerwrap > div > div > div:nth-child(2) > p > i.fa.fa-phone { 
+	font-weight: 400;
+	font-size: 14px; 
+	line-height: 24px;
+}
 
 img {
 	height: auto;
