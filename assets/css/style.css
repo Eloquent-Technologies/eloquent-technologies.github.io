@@ -79,6 +79,10 @@ a:focus {
   color:#01b2fe;
 }
 
+a.white {
+	color: #bfc9d3;
+}
+
 ::-moz-selection  {
 	color: #fff;
 	text-shadow:none;
