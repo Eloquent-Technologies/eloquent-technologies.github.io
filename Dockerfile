@@ -1,3 +1,3 @@
-FROM httpd:alpine
+FROM nginx:alpine
 
-COPY . /usr/local/apache2/htdocs/
+COPY . /usr/share/nginx/html/
